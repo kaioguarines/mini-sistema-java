@@ -1,0 +1,19 @@
+package academy.devdojo.maratonajava.introducao;
+
+public class Aula05EstruturasDeRepeticao01 {
+    public static void main(String[] args) {
+        // while, do while, for
+        int count = 0;
+        while (count < 10) {
+            System.out.println(++count);
+        }
+        count = 0;
+        do {
+            System.out.println("dentro do do-while" + ++count);
+        } while (count < 10);
+        for (int i = 1; i < 11; i++) {
+            System.out.println(i);
+        }
+
+    }
+}
