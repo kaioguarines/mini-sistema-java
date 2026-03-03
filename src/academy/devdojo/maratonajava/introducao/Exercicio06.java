@@ -30,5 +30,6 @@ public class Exercicio06 {
             resultado = resultado + soma[i];
         }
         System.out.println(resultado);
+
     }
 }
